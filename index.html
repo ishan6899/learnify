@@ -1,455 +1,532 @@
-
 <!doctype html>
 <html>
+
 <head>
-     <meta name="google-site-verification" content="">
-     <meta charset="UTF-8">
-      <meta charset="UTF-8"/>
+  <meta name="google-site-verification" content="">
+  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-     <title>HOME | LEARNIFY HUB</title>
-         <link rel="icon" type="image/ico" href="icon.ico" >
+  <title>HOME | LEARNIFY HUB</title>
+  <link rel="icon" type="image/ico" href="icon.ico">
 
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap and Jquery CDN-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Awesome Fonts CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
 
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa|Josefin+Slab|Arvo|Righteous|Srisakdi" rel="stylesheet">
-  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa|Josefin+Slab|Arvo|Righteous|Srisakdi"
+    rel="stylesheet">
+  <!-- Wow Js and Animate CSS CDN-->
 
-                      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
-                      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-                       <script>
-                                    new WOW().init()
-                         
-                      </script>
-      <style type="text/css">
-      *
-      {
-        box-sizing: border-box;
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script>
+    new WOW().init()
+
+  </script>
+
+
+  <!--Internal CSS-->
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      font-family: "Comfortaa", "Serif";
+    }
+
+    label {
+      color: white !important;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 7vw;
+      color: deeppink;
+      font-family: "Arvo", "Serif";
+      margin-top: 100px;
+    }
+
+    #intro {
+      color: white;
+      font-size: 27px;
+      font-family: "Josefin Slab", "Serif";
+      margin-top: 80px;
+    }
+
+    .navbar {
+      min-height: 80px;
+    }
+
+    h2 {
+      color: deeppink;
+      text-align: center;
+      font-size: 38px;
+
+    }
+
+    p {
+      padding: 20px;
+      font-size: 15px;
+      margin-top: 30px;
+    }
+
+    .col {
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    .span1 {
+      color: blue;
+
+
+
+
+    }
+
+    .course {
+      transition: transform .2s;
+
+    }
+
+
+    .course:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1);
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    }
+
+
+
+    a:hover {
+      text-decoration: none !important;
+
+    }
+
+    div {
+      background-attachment: fixed;
+    }
+
+    /*Responsive CSS */
+    @media only screen and (max-width: 600px) {
+      .res {
+        width: 50%;
+        height: 20% !important;
       }
-       p{
-        font-family: "Comfortaa","Serif";
-       }
-label
-{
-  color: white !important;
-}
 
-h1
-{
-  text-align: center;
-  font-size: 7vw;
-  color:deeppink;
-  font-family: "Arvo","Serif";
-  margin-top:100px;
-}
+      q {
+        font-size: 15px;
+      }
 
-#intro
-{
-  color: white;
-  font-size: 27px;
-  font-family: "Josefin Slab","Serif";
-  margin-top: 80px;
-}
-.navbar
-{
-  min-height: 80px;
-}
-h2
-{
-  color: deeppink;
-  text-align: center;
-  font-size: 38px;
+      .col {
+        margin-left: 70px;
+      }
 
-}
-p
-{
-  padding: 20px;
-  font-size: 15px;
-  margin-top: 30px;
-}
-.col
-{
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-.span1
-{
-  color: blue;
- 
+      .para1 {
+        font-size: 13px;
+        width: 100px;
+      }
 
- 
-
-}
-.course
-{
-    transition: transform .2s;
-
-}
+    .stu2{
+      font-size: 12px;
+    }
+   .intro2{
+     font-size: 13px !important;
+     margin-top: 100px;
+     margin-bottom: 20px;
+   }
 
 
-.course:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1); 
-    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
-}
+    }
+
+   
+
+
+  </style>
+  
+</head>
+
+<body>
+
+    
 
 
 
-	a:hover
-	{
-		text-decoration: none !important;
-		
-	}
-  div
-  {
-    background-attachment: fixed;
-  }
-@media only screen and (max-width: 600px) {
-	.res{
-		width: 50%;
-		height: 20% !important;
-	}
-	q
-	{
-		font-size: 15px;
-	}
-}
-	
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark " style="background-color:deeppink;">
+    <a class="navbar-brand" href="#" style="color: white;">LEARNIFY HUB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class=" navbar-nav navbar-right" style="text-align: right !important;">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="text-align: right !important;">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactus">Contact Us</a>
+        </li>
 
-      </style>                
-    </head>
-    <body >
-     
- <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark " style="background-color:deeppink;" >
-  <a class="navbar-brand" href="#" style="color: white;">LEARNIFY HUB</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown" >
-    <ul class=" navbar-nav navbar-right" style="text-align: right !important;">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html" style="text-align: right !important;">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#aboutus">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contactus">Contact Us</a>
-      </li>
-      
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="text-align: center !important;">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
-      </li>
-    </ul>
-   
+        </li>
+      </ul>
+  </nav>
+  <!--Intro Image ,heading and paragrapgh-->
+  <div
+    style="background-image:url(one.jpeg); min-height: 700px !important;background-attachment: fixed;background-repeat: no-repeat;margin-top: 0px;background-size: cover;background-color: rgba(255, 255, 255) !important;">
+    <div class="container" style="margin-top: 0px!important; ">
+      <div class="col-sm-12" style="margin-top: 170px;">
+        <strong><strong>
+            <h1 style="color:white;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Innovating Education</h1>
+          </strong></strong>
+      </div>
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="section-description intro2"
+          style="color:black;background-color: white ;font-family: 'Helvetica Neue', sans-serif;font-size:17px;padding:20px;opacity: 0.8">
+          Learning is a lifetime activity as human beings are inherently curious. Purpose of education is to enhance
+          that curiosity and convert into a passion. It is immature to separate learning from fun, rightly done learning
+          is the most engaging of all facts. Be curious, don't be afraid of making mistakes, and above all be passionate
+          for learning.</div>
+        <center> <button type="button" class="btn btn-primary btn-lg c1"
+            style="padding: 15px;font-size: 25px;background-color: deeppink;margin: 10px;"><a href="#course1">Our
+              Courses</a></button>
+          <button type="button" class="btn btn-primary btn-lg c1"
+            style="padding: 15px;font-size: 25px;background-color: deeppink;margin: 10px;"><a href="#Directors">Our
+              Directors</a></button>
+        </center>
 
 
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--About Us-->
+  <div class="container wow slideInUp" data-wow-duration="2s" id="aboutus"
+    style="margin-bottom: 100px;margin-top: 100px;">
+    <img src="learn3.png" style="float: right;width: 35%;">
+    <div style="display: inline;">
+      <h2 style="display: inline-block;width: 50%;text-align:left;margin-left: 30px;"><del><span
+            style="color: black; font-size: 22px;"> About Us</span><br></del> Why Us</h2>
 
-</nav>
-<div style="background-image:url(http://www.learnifyhub.com/wp-content/uploads/2018/09/learning-3245793_1920.jpg); 
-min-height: 700px !important;background-attachment: fixed;background-repeat: no-repeat;margin-top: 0px;background-size: cover;background-color: rgba(255, 255, 255, 0.9) !important;">
-<div class="container" style="margin-top: 0px!important; ">
- <div class="col-sm-12" style="margin-top: 170px;">
-						<strong><strong><h1 style="color: white;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Innovating Education</h1></strong></strong>
-					</div>
-<div class="col-sm-8 col-sm-offset-2">
-											<div class="section-description" style="color: white;"><strong >Learning is a lifetime activity as human beings are inherently curious. Purpose of education is to enhance that curiosity and convert into a passion. It is immature to separate learning from fun, rightly done learning is the most engaging of all facts. Be curious, don't be afraid of making mistakes, and above all be passionate for learning.</strong></div>
-															<center>	  <button type="button" class="btn btn-primary btn-lg c1" style="padding: 15px;font-size: 25px;background-color: deeppink;margin: 10px;"><a href="#course1">Our Courses</a></button>
-																  <button type="button" class="btn btn-primary btn-lg c1" style="padding: 15px;font-size: 25px;background-color: deeppink;margin: 10px;"><a href="#Directors">Our Directors</a></button>
-																  </center>
-
-
-									</div>
-									</div>
-									</div>
-									</div>					
-
-<div class="container wow slideInUp" data-wow-duration="2s" id="aboutus" style="margin-bottom: 100px;margin-top: 100px;">
-      <img src="learn3.png" style="float: right;width: 35%;">
-<div style="display: inline;">
-  <h2 style="display: inline-block;width: 50%;text-align:left;margin-left: 30px;"><del><span style="color: black; font-size: 22px;"> About Us</span><br></del> Why Us</h2>
-
-  <p style="display: inline-block;width: 400px;">Learnify is an institute for engineering entrance examination where we focus to develop the analytical thinking of students through innovative and motivating methods. Here we focus on developing the thinking of the students over various concept of Physics, Chemistry and Mathematics through physical class room teaching, assignments and tests.</p></div>
-</div>
-
-  <div style="background-image:url(learn1.jpg); 
+      <p style="display: inline-block;width: 600px;" class="para1">Learnify is an institute for engineering entrance
+        examination where we focus to develop the analytical thinking of students through innovative and motivating
+        methods. Here we focus on developing the thinking of the students over various concept of Physics, Chemistry and
+        Mathematics through physical class room teaching, assignments and tests.</p>
+    </div>
+  </div>
+  <!--Our Mission-->
+  <div style="background-image:url('pink.png'); 
 min-height: 300px !important;background-attachment: fixed;">
 
-<div>
-<h2 style="margin-top: 10px;margin-bottom:0px;padding: 40px;color: white;">Our Mission</h2>
-<h2 style="margin-top: 10px;margin-bottom:0px;padding: 40px;color: white;font-family:Srisakdi,cursive; "><q>To help rediscover the wonder of learning and kindling a passion for genuine understanding of the subject.</q></h2> </div></h2></div>
-<div style="margin-bottom: 50px;" class="wow slideInUp" data-wow-duration="1.5s" id="course1">
-    <h2 ><del><span style="color: black; font-size: 22px;margin-bottom: 50px;"> Our Popular Courses</span><br></del> The Best Courses</h2>
+    <div>
+      <h2 style="margin-top: 10px;margin-bottom:0px;padding: 40px;color: white;">Our Mission</h2>
+      <h2 style="margin-top: 10px;margin-bottom:0px;padding: 40px;color: white;font-family: 'Helvetica Neue',cursive; ">
+        <q>To help rediscover the wonder of learning and kindling a passion for genuine understanding of the
+          subject.</q></h2>
+    </div>
+    </h2>
+  </div>
+  <!--Courses-->
+  <div style="margin-bottom: 50px;" class="wow slideInUp" data-wow-duration="1.5s" id="course1">
+    <h2><del><span style="color: black; font-size: 22px;margin-bottom: 50px;"> Our Popular Courses</span><br></del> The
+      Best Courses</h2>
 
-  <div class="container">
+    <div class="container">
       <div class="row">
 
-    <div class="col"  >
-        <div  style="width: 20rem;" class="course">
-          <p ><span class="span1">Genisis</span><br>
-            <p>Genesis is a three year foundation program for class X students.This program aims to build a solid base for preparation of IITJEE, while keeping things interesting.</p>
+        <div class="col">
+          <div style="width: 20rem;" class="course">
+            <p><span class="span1">Genisis</span><br>
+              <p>Genesis is a three year foundation program for class X students.This program aims to build a solid base
+                for preparation of IITJEE, while keeping things interesting.</p>
 
+          </div>
+        </div>
+
+        <div class="col">
+          <div style="width: 20rem;" class="course">
+
+            <p><span class="span1" style="color: deeppink;">Ascension</span><br>
+              <p>Ascension is a two year program for class XI students which starts at a comfortable pace to allow
+                students to cope a sudden change and picks up the required pace. </p>
+
+
+          </div>
+        </div>
+
+        <div class="col">
+          <div style="width: 20rem;" class="course">
+
+            <p><span class="span1">Zenith</span><br>
+              <p>Zenith is a one year program for class XII students. This course takes along class XI revision with
+                class XII course. It also includes finishing touches with last mile test series.</p>
+
+
+          </div>
+        </div>
       </div>
-  </div>
-    
-    <div class="col">
-     <div  style="width: 20rem;" class="course">
- 
-    <p ><span class="span1"style="color: deeppink;">Ascension</span><br>
-      <p>Ascension is a two year program for class XI students which starts at a comfortable pace to allow students to cope a sudden change and picks up the required pace. </p>
-      
-
-  </div>
-</div>
-    
-    <div class="col">
-      <div style="width: 20rem;" class="course">
- 
-    <p ><span class="span1" >Zenith</span><br>
-      <p>Zenith is a one year program for class XII students. This course takes along class XI revision with class XII course. It also includes finishing touches with last mile test series.</p>
-    
-
-  </div>
-</div>
     </div>
-</div>
-</div>
-</div>
-<div class="row " style="margin-bottom: 0px ;">
-  <img src="new1.jpg" style="height: 360px;" class="res">
-    <img src="new2.jpg" style="height: 360px;" class="res">
-  <img src="new3.jpg" style="height: 360px;" class="res">
-  <img src="new4.jpg" style="height: 360px;" class="res">
-</div>
+  </div>
+  </div>
+  <!--4 images -->
+  <div class="row " style="margin-bottom: 0px ;">
+    <img src="new1.jpg" style="height: 24.9vw;" class="res">
+    <img src="new2.jpg" style="height: 24.9vw;" class="res">
+    <img src="new3.jpg" style="height: 24.9vw;" class="res">
+    <img src="new4.jpg" style="height: 24.9vw;" class="res">
+  </div>
 
+  <!--Directors-->
+  <div class=" wow fadeInLeft " data-wow-duration="1.2s" id="Directors"
+    style="margin-bottom: 100px;background-image:url(pink.png);margin-top: 0px !important;background-size: cover;">
+    <h2 style="visibility: hidden;margin-top: 0px;">dkdkdkdk</h2>
+    <h2 style="color: white;margin-bottom: 60px;"><del><span style="color: black; font-size: 22px;"> Our
+          Directors</span><br></del>People who take education to next level!</h2>
 
-      <div class=" wow fadeInLeft " data-wow-duration="1.2s" id="Directors" style="margin-bottom: 100px;background-image:url(pink.png);margin-top: 0px !important;background-size: cover;">
-        <h2 style="visibility: hidden;margin-top: 0px;">dkdkdkdk</h2>
-          <h2 style="color: white;margin-bottom: 60px;" ><del><span style="color: black; font-size: 22px;"> Our Directors</span><br></del>People who take education to next level!</h2>
-
-      <div class="container">
+    <div class="container">
       <div class="row" style="margin-bottom: 100px;">
 
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-        <img class="img-round" src="ps.jpg" alt="Card image cap" style="height: 270px;">
-        <div class="card-body">
-          <center><p class="card-text" ">Mr.Parvez Sir </p>
-             <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-  Know More
-  </a></center>
-  <div class="collapse" id="collapseExample">
-  <p><strong>
-Physics</p></strong>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="img-round" src="ps.jpg" alt="Card image cap" style="height: 270px;">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Mr.Parvez Sir </p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Know More
+                </a>
+              </center>
+              <div class="collapse" id="collapseExample">
+                <p><strong>
+                    Physics</p></strong>
 
-<strong>Education:</strong>
+                <strong>Education:</strong>
 
-Msc Physics, IIT Delhi<br>
-<strong>Teaching Experience:</strong>
-12 Years</p>
-  <center>
-  <a href="#">
-<i class="fa fa-facebook-official  fa-circle" aria-hidden="true" style="color: blue;margin: 10px;"></i></a>
- <a href="#">
-<i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-instagram fa" aria-hidden="true" style="color: deeppink;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-envelope fa" aria-hidden="true" style="color: black;margin: 10px;"></i></a>
+                Msc Physics, IIT Delhi<br>
+                <strong>Teaching Experience:</strong>
+                12 Years</p>
+                <center>
+                  <a href="#">
+                    <i class="fa fa-facebook-official  fa-circle" aria-hidden="true"
+                      style="color: blue;margin: 10px;"></i></a>
+                  <a href="#">
+                    <i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-instagram fa" aria-hidden="true"
+                      style="color: deeppink;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-envelope fa" aria-hidden="true"
+                      style="color: black;margin: 10px;"></i></a>
 
-</center>
-</div>
+                </center>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="img-round" src="vs.jpg" alt="Card image cap" style="height: 270px;">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Mr Vikram Sir</p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Know More
+                </a>
+              </center>
+              <div class="collapse" id="collapseExample1">
+
+                <p><strong>
+                    Chemistry</p></strong>
+
+                <strong>Education:</strong>
+
+                B. Tech, IIT Kharagpur<br>
+                <strong>Teaching Experience:</strong>
+                7 Years</p>
+                <center>
+                  <a href="#">
+                    <i class="fa fa-facebook-official  fa-circle" aria-hidden="true"
+                      style="color: blue;margin: 10px;"></i></a>
+                  <a href="#">
+                    <i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-instagram fa" aria-hidden="true"
+                      style="color: deeppink;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-envelope fa" aria-hidden="true"
+                      style="color: black;margin: 10px;"></i></a>
+
+                </center>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="img-rounded" src="rs.jpg" alt="Card image cap" height="270px">
+            <div class="card-body">
+              <center>
+                <p class="card-text">Mr. Rahul Sir</p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Know More
+                </a>
+              </center>
+              <div class="collapse" id="collapseExample2">
+
+                <p><strong>
+                    Mathematics</strong></p>
+
+                <strong>Education:</strong>
+
+                B. Tech, IIT Kharagpur<br>
+                <strong>Teaching Experience:</strong>
+                16 Years</p>
+                <center>
+                  <a href="#">
+                    <i class="fa fa-facebook-official  fa-circle" aria-hidden="true"
+                      style="color: blue;margin: 10px;"></i></a>
+                  <a href="#">
+                    <i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-instagram fa" aria-hidden="true"
+                      style="color: deeppink;margin: 10px;"></i></a>
+                  <a href="#"><i class="fa fa-envelope fa" aria-hidden="true"
+                      style="color: black;margin: 10px;"></i></a>
+
+                </center>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
 
       </div>
-  </div>
     </div>
-    <div class="col">
-     <div class="card" style="width: 18rem;">
- <img class="img-round" src="vs.jpg" alt="Card image cap" style="height: 270px;">
-  <div class="card-body">
-   <center> <p class="card-text">Mr Vikram Sir</p>
-       <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-  Know More
-  </a></center>
-  <div class="collapse" id="collapseExample1">
-  
- <p><strong>
-Chemistry</p></strong>
-
-<strong>Education:</strong>
-
-B. Tech, IIT Kharagpur<br>
-<strong>Teaching Experience:</strong>
-7  Years</p>
-  <center>
-  <a href="#">
-<i class="fa fa-facebook-official  fa-circle" aria-hidden="true" style="color: blue;margin: 10px;"></i></a>
- <a href="#">
-<i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-instagram fa" aria-hidden="true" style="color: deeppink;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-envelope fa" aria-hidden="true" style="color: black;margin: 10px;"></i></a>
-
-</center>
-</div>
-
   </div>
-</div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-  <img class="img-rounded" src="rs.jpg" alt="Card image cap" height="270px" >
-  <div class="card-body"><center>
-    <p class="card-text">Mr. Rahul Sir</p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-  Know More
-  </a></center>
-  <div class="collapse" id="collapseExample2">
-  
-  <p><strong>
-Mathematics</strong></p>
-
-<strong>Education:</strong>
-
-B. Tech, IIT Kharagpur<br>
-<strong>Teaching Experience:</strong>
-16 Years</p>
-  <center>
-  <a href="#">
-<i class="fa fa-facebook-official  fa-circle" aria-hidden="true" style="color: blue;margin: 10px;"></i></a>
- <a href="#">
-<i class="fa fa-whatsapp fa" aria-hidden="true" style="color: green;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-instagram fa" aria-hidden="true" style="color: deeppink;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-envelope fa" aria-hidden="true" style="color: black;margin: 10px;"></i></a>
-
-</center>
- 
-</div>
-
-
-  </div>
-</div>
-    </div>
-
-</div>
-</div>
-</div>
-<div background-color: #f5f5f5;" id="contactus">
-
-  <h2  style="margin-bottom: 100px;">Contact Us</h2>
-
-  <div class="container">
-    <div class="container">
-          <div class="container" >
-
-
-  <div class="alert alert-primary" role="alert" style="text-align: center;">
-  Our Center
-</div>
-<p>
-  SCO 84p, First Floor,<br> Near Sagar Cinema, Sector 16 Market<br>
-Faridabad, Haryana</p>
-<div class="alert alert-primary" role="alert" style="text-align: center;">
- Support
-</div>
-<p>
- E-mail:  learnifyhub@gmail.com<br>
-Phone: 8505902225,8920519014,9891307703</p>
-</div>
-
-
-
-</div>
-</div>
-</div>
+ <!--Student Testonomials--> 
 <div>
-<div class="wow fadeIn" data-wow-duration="2s" style="background-image:url(pink.png);background-size:cover;"> 
-  <h2 style="visibility: hidden;">vlkklfkl</h2>
-  <h2 style="margin-bottom: 50px;color: white;border-top: 20px;">Drop a message</h2>
-  <div class="container">
-    <form style="margin-top: 20px"; >
+<h2>What our previous students say</h2>
+<div class="container">
+  <div style="margin-top: 100px;margin-bottom: 100px;">
+
+<img src="student1.jpg" style="width:12vw;border-radius: 100px;display: inline-block;" class="stu1">
+  <span style="font-size: 20px;">-Shraddha Sharma</span>
+   <p style="display: inline-block;width: 80%;border:2px solid deeppink;border-radius:30px;" class="stu2">Rahul Sir is an inspiring teacher and presenter. He conveys the depth of knowledge in creative and engaging ways to motivate us. His strengths lie in his ability to break down and simplify math into key concepts that equips us with the ability to tackle any question.</p> 
+   <p style="display: inline-block;width: 80%;border:2px solid blue;border-radius:30px;" class="stu2">Parvez Sir brings a clarification to the subject by providing a broad overview of each topic before diving into details. Also through yrs of experience he has lot of tricks to pass.</p> 
+   <p style="display: inline-block;width: 80%;border:2px solid deeppink;border-radius:30px;" class="stu2">Vikram Sir lessons are very effective and i always feel like my time is well spent as lessons are filled with timed practices, going through concepts and clarifying doubts. On top of that he is encouraging and approachable with a very sense of humor that makes lessons enjoyable.</p> 
+</div>
+</div>
+</div>
+  <!--Contact Us-->
+  <div style="background-color:lightgrey;" id="contactus">
+    <h2 style="visibility: hidden;">doednmoiemnoedoiedmeod</h2>
+    <h2 style="margin-bottom: 100px;">Contact Us</h2>
+
+    <div class="container">
+      <div class="container">
+        <div class="container">
+
+
+          <div class="alert alert-primary" role="alert" style="text-align: center;">
+            Our Center
+          </div>
+          <p>
+            SCO 84p, First Floor,<br> Near Sagar Cinema, Sector 16 Market<br>
+            Faridabad, Haryana</p>
+          <div class="alert alert-primary" role="alert" style="text-align: center;">
+            Support
+          </div>
+          <p>
+            E-mail: learnifyhub@gmail.com<br>
+            Phone: 8505902225,8920519014,9891307703</p>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--Drop a Message-->
+  <div>
+
+    <div class="wow fadeIn" data-wow-duration="2s" style="background-image:url(pink.png);background-size:cover;">
+      <h2 style="visibility: hidden;">vlkklfkl</h2>
+      <h2 style="margin-bottom: 50px;color: white;border-top: 20px;">Drop a message</h2>
+      <div class="container">
+        <form style="margin-top: 20px" ;>
           <div class="form-group">
             <label for="exampleInputEmail1">Your Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name">
-           </div>
-           
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter full name">
+          </div>
+
           <div class="form-group">
             <label for="exampleInputPassword1">Your Phone No.</label>
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone No">
           </div>
-                      <label for="exampleInputEmail1">Drop a message</label>
+          <label for="exampleInputEmail1">Drop a message</label>
 
-          <textarea style="width: 100%;height:200px;margin-bottom: 20px;" placeholder="Any feedbacks or suggestions are welcomed"></textarea>
-         <center> <button type="submit" class="btn btn-primary" style="background-color:white;color: black;">Submit</button></center>
-         <h2 style="visibility: hidden;">djjdjdj</h2>
-    </form>
+          <textarea style="width: 100%;height:200px;margin-bottom: 20px;"
+            placeholder="Any feedbacks or suggestions are welcomed"></textarea>
+          <center> <button type="submit" class="btn btn-primary"
+              style="background-color:white;color: black;">Submit</button></center>
+          <h2 style="visibility: hidden;">djjdjdj</h2>
+        </form>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
+  </div>
+
+  <!--Footer-->
+
+  <footer style="margin-bottom: 0px; margin-top: 0px !important;background-color: black;">
 
 
-<footer style="margin-bottom: 0px; margin-top: 0px !important;background-color: black;">
-
-
-  <p style="color: white;background-color: black;margin-bottom: 0px;text-align: center;">Designed and Developed by Ishan Arora|A proud Alumini</p>
+    <p style="color: white;background-color: black;margin-bottom: 0px;text-align: center;">Designed and Developed by
+      Ishan Arora|A proud Alumini</p>
     <center>
-  <a href="#">
-<i class="fa fa-facebook-official  fa fa-2x " aria-hidden="true" style="color: white;margin: 10px; "></i></a>
- <a href="#">
-<i class="fa fa-whatsapp fa fa-2x" aria-hidden="true" style="color:white;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true" style="color:white;margin: 10px;"></i></a>
- <a href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true" style="color:white;margin: 10px;"></i></a>
+      <a href="#">
+        <i class="fa fa-facebook-official  fa fa-2x " aria-hidden="true" style="color: white;margin: 10px; "></i></a>
+      <a href="#">
+        <i class="fa fa-whatsapp fa fa-2x" aria-hidden="true" style="color:white;margin: 10px;"></i></a>
+      <a href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true" style="color:white;margin: 10px;"></i></a>
+      <a href="#"><i class="fa fa-envelope fa-2x" aria-hidden="true" style="color:white;margin: 10px;"></i></a>
 
-</center>
-</div>
+    </center>
+    </div>
 
-</footer>
+  </footer>
 
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
