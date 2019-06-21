@@ -43,6 +43,9 @@
 
   <!--Internal CSS-->
   <style type="text/css">
+  *{
+    overflow: auto;
+  }
     * {
       box-sizing: border-box;
     }
@@ -127,7 +130,7 @@
     }
 
     /*Responsive CSS */
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 640px) {
       .res {
         width: 50%;
         height: 20% !important;
@@ -143,7 +146,7 @@
 
       .para1 {
         font-size: 13px;
-        width: 7vw;
+        width: auto !important;
       }
 
     .stu2{
@@ -160,6 +163,9 @@
   .mission2{
     margin-bottom:0px;
   }
+  .teach{
+    width:100vw;
+  }
   
     }
 
@@ -170,7 +176,7 @@
   
 </head>
 
-<body>
+<body style="position: sticky;width: 100vw;">
 
     
 
@@ -267,7 +273,7 @@ min-height: 300px !important;background-attachment: fixed;">
     <div class="container">
       <div class="row">
 
-        <div class="col">
+        <div class="col" style="overflow: visible !important;">
           <div style="width: 20rem;" class="course">
             <p><span class="span1">Genisis</span><br>
               <p>Genesis is a three year foundation program for class X students.This program aims to build a solid base
@@ -276,7 +282,7 @@ min-height: 300px !important;background-attachment: fixed;">
           </div>
         </div>
 
-        <div class="col">
+        <div class="col" style="overflow: visible !important;">
           <div style="width: 20rem;" class="course">
 
             <p><span class="span1" style="color: deeppink;">Ascension</span><br>
@@ -287,7 +293,7 @@ min-height: 300px !important;background-attachment: fixed;">
           </div>
         </div>
 
-        <div class="col">
+        <div class="col" style="overflow: visible !important;">
           <div style="width: 20rem;" class="course">
 
             <p><span class="span1">Zenith</span><br>
@@ -300,8 +306,8 @@ min-height: 300px !important;background-attachment: fixed;">
       </div>
     </div>
   </div>
-  </div>
-  <!--4 images -->
+  </div>-->
+  <!--4 images--> 
   <div class="row " style="margin-bottom: 0px ;">
     <img src="new1.jpg" style="height: 24.9vw;" class="res">
     <img src="new2.jpg" style="height: 24.9vw;" class="res">
@@ -319,17 +325,16 @@ min-height: 300px !important;background-attachment: fixed;">
     <div class="container">
       <div class="row" style="margin-bottom: 100px;">
 
-        <div class="col">
+        <div class="col teach" style="overflow: visible !important;">
           <div class="card" style="width: 18rem;">
             <img class="img-round" src="ps.jpg" alt="Card image cap" style="height: 270px;">
             <div class="card-body">
-              <center>
                 <p class="card-text">Mr.Parvez Sir </p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
                   aria-expanded="false" aria-controls="collapseExample">
                   Know More
                 </a>
-              </center>
+             
               <div class="collapse" id="collapseExample">
                 <p><strong>
                     Physics</p></strong>
@@ -356,7 +361,7 @@ min-height: 300px !important;background-attachment: fixed;">
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" style="overflow: visible !important;">
           <div class="card" style="width: 18rem;">
             <img class="img-round" src="vs.jpg" alt="Card image cap" style="height: 270px;">
             <div class="card-body">
@@ -394,7 +399,7 @@ min-height: 300px !important;background-attachment: fixed;">
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" style="overflow: visible !important;">
           <div class="card" style="width: 18rem;">
             <img class="img-rounded" src="rs.jpg" alt="Card image cap" height="270px">
             <div class="card-body">
