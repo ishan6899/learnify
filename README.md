@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the website for Learnify Hub one of the premier coaching institution of Faridabad.
+This is the template website for Learnify Hub one of the premier coaching institution of Faridabad.
 
 ## Link
 
